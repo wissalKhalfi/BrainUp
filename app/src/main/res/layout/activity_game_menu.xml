@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_game_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/b1"
+    tools:context="mobile.esprit.brainup.GameMenuActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:weightSum="1">
+
+    <ImageView
+        android:src="@drawable/logo_splash"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.1"
+        android:id="@+id/imageView"
+        android:layout_height="120dp" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:background="@drawable/button"
+            android:id="@+id/btn_concentation"
+            android:layout_width="260dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:padding="5dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Concentration"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            android:layout_height="66dp"
+            />
+        <android.support.v7.widget.AppCompatButton
+            android:background="@drawable/button"
+            android:id="@+id/btn_intelligence"
+            android:layout_width="260dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:padding="5dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Intelligence"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            android:layout_height="66dp" />
+        <android.support.v7.widget.AppCompatButton
+            android:background="@drawable/button"
+            android:id="@+id/btn_memory"
+            android:layout_width="260dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:padding="5dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Memory"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            android:layout_height="66dp" />
+        <android.support.v7.widget.AppCompatButton
+            android:background="@drawable/button"
+            android:id="@+id/btn_profile"
+            android:layout_width="260dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:padding="5dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Profile analysis"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            android:layout_height="66dp" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "479736194330",
+    "firebase_url": "https://brainup-70cc3.firebaseio.com",
+    "project_id": "brainup-70cc3",
+    "storage_bucket": "brainup-70cc3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479736194330:android:e0b75ae01258101b",
+        "android_client_info": {
+          "package_name": "mobile.esprit.brainup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "479736194330-kr8gm3kniq7mkn7g52d69bvfpo6u2tka.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mobile.esprit.brainup",
+            "certificate_hash": "0B32F785A913A8112B0AB58AE1DC11BEE935FC9C"
+          }
+        },
+        {
+          "client_id": "479736194330-hgv9lfr5rfj65fvbj1dq8b848d5pd7lp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mobile.esprit.brainup",
+            "certificate_hash": "3EFF8DDCD8B277907D062D11B48B86C9066F027A"
+          }
+        },
+        {
+          "client_id": "479736194330-jsu74klu41kq397k73rvq2f83g5krggu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6pf9NO51UiW2cjgzefbeoDUMMFzYa0pg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "479736194330-jsu74klu41kq397k73rvq2f83g5krggu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
